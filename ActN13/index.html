@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/ActN13/js/script.js"></script>
+    <title>EdadPromedioMayor</title>
+</head>
+<body>
+    <script>
+        let edad1 = calcularEdad(2001);
+        let edad2 = calcularEdad(2004);
+        let edad3 = calcularEdad(2007);
+        let promedio = (edad1 + edad2 + edad3) / 3;
+        if(promedio>17){+
+            console.log("El promedio es de personas mayores de edad");
+        }
+        else{
+            console.log("El promedio es de personas menores de edad");
+        }
+        if(edad1>17){
+            console.log("La primera persona es mayor ("+edad1+")");
+        }
+        else{
+            console.log("La primera persona es menor ("+edad2+")");
+        }
+        if(edad2>17){
+            console.log("La segunda persona es mayor ("+edad2+")");
+        }
+        else{
+            console.log("La segunda persona es menor ("+edad2+")");
+        }
+        if(edad3>17){
+            console.log("La tercera persona es mayor ("+edad3+")");
+        }
+        else{
+            console.log("La tercera persona es menor ("+edad3+")");
+        }
+        console.log("la edad de la primera persona es: "+edad1);
+        console.log("la edad de la segunda persona es: "+edad2);
+        console.log("la edad de la tercera persona es: "+edad3);
+        console.log("El promedio de las edades es: "+promedio);
+    </script>
+</body>
+</html>
